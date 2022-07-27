@@ -1,0 +1,25 @@
+body{
+    background-color: #F9F9F9;
+}
+header{
+    background-color: #191A19;
+    padding-top: 7rem;
+}
+nav{
+    background-color: #191A19;
+}
+.intro{
+    font-family: 'Square Peg', cursive;
+    color: white;
+    font-size: 3.5rem;
+    text-align: center;
+}
+.role{
+    font-family: 'Square Peg', cursive;
+    font-size: 2rem;
+    color:rgb(216, 217, 217);
+    text-align: center;
+}
+.avatar{
+    margin-bottom: 3.5rem;
+}
