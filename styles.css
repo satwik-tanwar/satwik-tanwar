@@ -35,3 +35,12 @@ header{
 footer{
     background-color: #212529;
 }
+
+footer a{
+    text-decoration: none;
+    font-weight: 250;
+    color: white;
+}
+footer a:hover{
+    color:rgb(158, 156, 156);
+}
