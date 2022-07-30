@@ -24,57 +24,90 @@
     <!-- CODE -->
 
     <!-- HEADER -->
-    <header class="container-fluid">
+    <header>
         
         <!-- NAVBAR -->
-        <nav class="navbar fixed-top navbar-expand-md navbar-dark p-4">
+        <nav class="navbar navbar-expand-md navbar-dark p-2">
             <a href="index.html">
                 <img src="images/logo.png" alt="Website Logo" height="60px">
             </a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-md-auto m-2">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+            <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header me-3 mt-3">
+                    <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                    <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="navbar-nav justify-content-end flex-grow-1 ms-md-auto m-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About Me</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Resume</a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </nav>
 
         <!-- Other Header Content -->
         
-            <div class="row">
-                <div class="col-md-2 p-0"></div>
+            <div class="row m-0">
+                <div class="col-md-2"></div>
                 <div class="col-md-6">
                     <p class="intro mb-0 pt-4">Hi! I am Satwik Tanwar</p>
                     <p class="role">A Software Developer</p>
                 </div>
                 <div class="avatar col-md-4 text-center text-md-start">
-                    <img src="images/avatar.png" height="200px">
+                    <img src="images/avatar.png" height="220px">
                 </div>
             </div>
-        
-       
-        
-
     </header>
     
     <!-- Main Content -->
-    <div> </div>
+    <div class="my-3"> 
+
+    </div>
 
     <!-- FOOTER -->
     <footer>
-        <h3>Under Construction</h3>
+        <div class="row m-0">
+            <div class="col-md-4">
+                <h6>Site</h6>
+                <ul>
+                    <li><a href="">About Me</a></li>
+                    <li><a href="">Projects</a></li>
+                    <li><a href="">Blog</a></li>
+                    <li><a href="">Resume</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h6>Contact</h6>
+                <ul>
+                    <li><a href="mailto:satwiktanwar2002@gmail.com">satwiktanwar2002@gmail.com</a></li>
+                    <li><a href="tel:+916397453145">6397453145</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h6>Visit</h6>
+                <ul>
+                    <li><a href="">gitHub</a></li>
+                    <li><a href="">Kaggle</a></li>
+                    <li><a href="">LinkedIn</a></li>
+                    <li><a href="">Medium</a></li>
+                </ul>
+            </div>
+
+        </div>
     </footer>
 
   </body>
