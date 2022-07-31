@@ -1,10 +1,18 @@
 body{
-    background-color: #F9F9F9;
+    background-color: #F9F5EB;
     color: white;
     margin: 0;
 }
 header{
-    background-color: #80558C;
+    background-color: #1C3879;
+}
+
+.nav-item{
+    padding: 16px;
+}
+
+.nav-link{
+    font-size: 1.1rem;
 }
 
 .offcanvas-end{
@@ -14,12 +22,13 @@ header{
 
 .intro{
     font-family: 'Square Peg', cursive;
-    font-size: 3.5rem;
+    font-size: 3.1rem;
     text-align: center;
+    font-weight: 600;
 }
 .role{
     font-family: 'Square Peg', cursive;
-    font-size: 2.7rem;
+    font-size: 2.1rem;
     color:rgb(216, 217, 217);
     text-align: center;
 }
@@ -29,7 +38,7 @@ header{
 
 .test{
     height: 500px;
-    background-color: aqua;
+    background-color: grey;
 }
 
 footer{
